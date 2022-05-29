@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{DE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1F2D67ED-3463-44A4-A84B-F27FDFFEF610}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MehrWeb", "MongoWeb\MehrWeb.csproj", "{51BC7501-38A2-49CD-89CF-D0C0502E0F5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MehrWeb", "MehrWeb\MehrWeb.csproj", "{51BC7501-38A2-49CD-89CF-D0C0502E0F5B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MehrServicesAPI", "MongoServicesAPI\MehrServicesAPI.csproj", "{9EDBC699-05DD-4471-ACD5-AF03989A4AF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MehrServicesAPI", "MehrServicesAPI\MehrServicesAPI.csproj", "{9EDBC699-05DD-4471-ACD5-AF03989A4AF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
