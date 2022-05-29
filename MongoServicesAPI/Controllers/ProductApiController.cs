@@ -55,5 +55,62 @@ namespace MongoServicesAPI.Controllers
 
             return Ok(_response);
         }
+
+        [HttpPost]
+        public async Task<object> Post([FromBody] ProductDto productDto)
+        {
+            try
+            {
+                var result = await productRepository.CreateUpdateProduct(productDto);
+                _response.Result = result;
+
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.ErrorMessages = new List<string> { ex.Message };
+
+            }
+
+            return Ok(_response);
+        }
+
+        [HttpPut]
+        public async Task<object> Put([FromBody] ProductDto productDto)
+        {
+            try
+            {
+                var result = await productRepository.CreateUpdateProduct(productDto);
+                _response.Result = result;
+
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.ErrorMessages = new List<string> { ex.Message };
+
+            }
+
+            return Ok(_response);
+        }
+
+        [HttpDelete]
+        public async Task<object> Delete(int id)
+        {
+            try
+            {
+                var result = await productRepository.DeleteProduct(id);
+                _response.Result = result;
+
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.ErrorMessages = new List<string> { ex.Message };
+
+            }
+
+            return Ok(_response);
+        }
     }
 }
