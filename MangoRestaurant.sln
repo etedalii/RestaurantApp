@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{DE5814F5-32A9-448E-9C0A-68E56FCE46F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1F2D67ED-3463-44A4-A84B-F27FDFFEF610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoWeb", "MongoWeb\MongoWeb.csproj", "{51BC7501-38A2-49CD-89CF-D0C0502E0F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoServicesAPI", "MongoServicesAPI\MongoServicesAPI.csproj", "{9EDBC699-05DD-4471-ACD5-AF03989A4AF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51BC7501-38A2-49CD-89CF-D0C0502E0F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BC7501-38A2-49CD-89CF-D0C0502E0F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BC7501-38A2-49CD-89CF-D0C0502E0F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BC7501-38A2-49CD-89CF-D0C0502E0F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDBC699-05DD-4471-ACD5-AF03989A4AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDBC699-05DD-4471-ACD5-AF03989A4AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDBC699-05DD-4471-ACD5-AF03989A4AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDBC699-05DD-4471-ACD5-AF03989A4AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51BC7501-38A2-49CD-89CF-D0C0502E0F5B} = {DE5814F5-32A9-448E-9C0A-68E56FCE46F7}
+		{9EDBC699-05DD-4471-ACD5-AF03989A4AF4} = {1F2D67ED-3463-44A4-A84B-F27FDFFEF610}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3E4A4C1-A009-4F4D-8B9A-050E12187D03}
+	EndGlobalSection
+EndGlobal
